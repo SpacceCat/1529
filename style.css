@@ -1,0 +1,32 @@
+/*because I'm not using a reset for this example I'll quickly reset my margins, padding, and font-weight on all elements*/
+* {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	width: 904px;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 1.5;
+	border: 1px solid #172727;
+	color: #172727;
+	padding: 27px;
+}
+p{
+	margin-bottom: 27px;
+	max-width: 540px;
+}
+h1{
+	font-size: 72px;
+	margin-bottom: 54px;
+}
+h2{
+	font-size: 1.5em;
+	margin-bottom: 24px;
+}
