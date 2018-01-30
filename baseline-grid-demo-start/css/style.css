@@ -1,0 +1,40 @@
+section{
+	width: 960px;
+	margin: 0 auto;
+}
+
+body{
+	/* Step 1: Choose a font family */
+	font-family: Georgia, serif;
+
+	/* Step 2: Set default font size | will be 16px = 100% */
+	font-size: 100%;
+
+	/* Step 3: Choose grid unit size | will be 1.5 X 16 = 24px */
+	line-height: 1.5;
+
+	/*Step 4: display visual grid*/
+	background-image: linear-gradient(#0ff 1px, transparent 1px);
+	background-size: auto 24px;
+
+	/* Step 5: Choose your typographic scale */
+	/* 12, 14, 16, 21, 24, 36, 48, 60, 72 */
+}
+
+/*Step 6: style the stuff*/
+h1{
+	font-size: 72px;
+	margin-bottom: 24px;
+	line-height: 96px; /*line hieght must be larger than the font size, and a multiplyer of 24px for the grid spacing*/
+}
+
+p{
+	margin-bottom: 24px;
+	max-width: 480px;
+}
+h2{
+	font-size: 48px;
+	margin-top: 48px; /*Double the amount to take into account the collapsing margin from above p*/
+	margin-bottom: 24px;
+	line-height: 48px;
+}
