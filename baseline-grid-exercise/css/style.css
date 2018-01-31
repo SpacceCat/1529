@@ -18,7 +18,16 @@
   }
 
   /*********************** Your code goes here ***********************/
-  
+  /*Font size*/
+  /* 12, 14, 16, 21, 24, 36, 48, 60, 72 */
+
+
+  /*Multiple of 24 for the line height*/
+  /* 24, 48, 72 */
+
+  /*Math*/
+  /*1.5 X 16 = 24px */
+
   body{
     font-family: 'Lato', sans-serif;
     font-size: 100%;
@@ -27,37 +36,37 @@
     background-size: auto 24px;
   }
   h1{
-    font-size: 48px;
-    margin-bottom: 24px;
-    line-height: 60px;
-  }
-  ul{
-    margin-top: 36px;
-  }
-  li{
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 60px;
+    line-height: 72px;
   }
   h2{
-
+    font-size: 48px;
+    margin-top: 48px;
   }
-  p{
-    margin-bottom: 24px;
-    max-width: 480px;
+  h2:first-child{
+    margin-top: 0px;
   }
   h3{
     font-size: 36px;
     line-height: 48px;
+    margin-top: 48px;
   }
   h4{
     font-size: 24px;
-    line-height: 24px;
+    line-height: 48px;
   }
   h5, section h6{
     font-size: 21px;
-    line-height: 21px;
-  }
-  footer h6{
-    font-size: 18px;
     line-height: 24px;
   }
+  p{
+    line-height: 24px;
+    margin-bottom: 24px;
+    max-width: 480px;
+  }
+
+li{
+    font-size: 12px;
+    line-height: 24px;
+  }
+
