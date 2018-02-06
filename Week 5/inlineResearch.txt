@@ -1,0 +1,8 @@
+inline
+partial compatibility with firefox 2 with prefix
+
+ie8 has resize issues - no fix, its a rendering bug
+- use javascript to toggle it off/on 
+
+only support in ie6/7 with elements with display inline by default
+
