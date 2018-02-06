@@ -1,0 +1,58 @@
+header,
+section,
+footer {
+    width: 1200px;
+    margin: 3em auto;
+}
+
+/* FLOATED COLUMNS */
+.row > .column{
+	width: 380px;
+	margin-right: 30px;
+	float: left;
+}
+.row > .column:last-child{
+	margin-right: 0;
+}
+
+/* INLINE */
+/* inline block has the same properties as inline elements, but with the widht and height allowed*/
+/* inline elements take the spacing from the html*/
+.inline > .column{
+	display: inline-block;
+	width: 380px;
+	margin-right: 30px;
+	/* the top of teh line is now allisng with the top of the tallest element*/
+	vertical-align: top;
+}
+.inline > .column:last-child{
+	margin-right: 0;
+}
+
+/* COLUMN COUNT */
+/* given the number of columns, the browser will evenly distribute the content in exactly that number of columns*/
+/* browser prefixes are required*/
+.column-count-container{
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	column-gap: 30px;
+	-webkit-column-gap: 30px;
+	-moz-column-gap: 30px;
+}
+.column-count-container > p{
+	display: inline-block;
+} /* disable this for it to work in chrome*/
+
+
+/* FLEXBOX*/
+/* Define a flex container*/
+/* it enables a flex context for all its direct children. by default flex items(the children) will all try to fit onto one line*/
+.flex-container{
+	display: flex;
+	/* use justification of items to layout spacing for gutters between column*/
+	justify-content: space-between;
+}
+.flex-container > .column{
+	width: 30%
+}
