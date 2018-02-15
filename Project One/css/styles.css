@@ -1,0 +1,59 @@
+html {
+	font-size: 16px; 
+	font-size: 62.5%;
+}
+
+
+/* --- Typographical Scales --- */
+body{
+	font-size: 1.8rem;
+	background-color: #2d3258;
+}
+main{
+	
+}
+section{
+	background-color: #2e4b77;
+	margin-bottom: 1.6rem;
+	width: 100%;
+}
+.summary > p{
+	width: 45%;
+	float: left;
+}
+/* font */
+h1{
+	font-size: 10rem;
+	font-family: 'Vesper Libre', serif;
+	font-weight: 400;
+}
+h2{
+	font-size: 3.6rem;
+		font-family: 'Vesper Libre', serif;
+
+}
+h3{
+	font-size: 2.4rem;
+}
+
+p{
+	/*border: 1px solid black;*/
+	font-family: 'Ubuntu', sans-serif;
+}
+/* --- Navigational Behaviours --- */
+nav a {
+	text-decoration: none;
+}
+
+a:link {
+	color: #333;
+}
+a:active {
+	color: #333;
+}
+a:hover {
+	color: #999;
+}
+a:visited {
+	color: #999;
+}
