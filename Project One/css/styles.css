@@ -51,11 +51,16 @@ section{
 
 .summary p, .container p, .background p{
 	line-height: 1.5;
-	columns: 2;
-	column-width: 3rem;
+/*	columns: 2;
+	column-width: 3rem;*/
 
 }
-
+.innercontain{
+	float: left;
+	width: 40%;
+	margin-right: 7%;
+	margin-bottom: 5%;
+}
 
 
 img{
@@ -95,16 +100,17 @@ h1{
 	font-family: 'Voga';
 	font-weight: 400;
 	color: #f4f2f0;
-	background-color: #0c0c0c;
+	background-color: #0f0d00;
 	line-height: 36rem;
 }
 h2{
-	font-size: 26rem;
+	font-size: 20rem;
 	text-align: center;
 	color: #f4f2f0;
 	font-family: 'Voga';
-	background-color: #0c0c0c;
-	line-height: 36rem;
+	background-color: #0f0d00;
+	line-height: 24rem;
+	letter-spacing: -1rem;
 }
 h3{
 	font-size: 3.6rem;
